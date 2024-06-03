@@ -44,6 +44,13 @@ public class Main {
         String userName = scanner.nextLine();
         System.out.println("Hello " + userName);
 
+        // Exercise 6
+        System.out.println("Enter the first number: ");
+        int firstNumber = scanner.nextInt();
+        System.out.println("Enter the second number: ");
+        int secondNumber = scanner.nextInt();
+
+        mathOperations(firstNumber,secondNumber);
     }
 
     public static boolean isLeapYear(int year) {
@@ -61,6 +68,17 @@ public class Main {
 
     public static void average(int a, int b, int c){
         System.out.printf("(%d + %d + %d)/3 = %d%n", a, b, c, ((a + b + c)/3) );
+    }
+
+    public static void mathOperations(int a, int b) {
+        //Sum
+        System.out.printf("Sum of %d + %d = %d%n", a, b, a + b );
+        // Multiplication
+        System.out.printf("Multiplication of %d * %d = %d%n", a, b, a * b);
+        // Division
+        System.out.printf("Division of %d + %d = %d%n", a, b, a / b );
+        // Subtraction
+        System.out.printf("Subtraction of %d + %d = %d%n", a, b, a - b );
     }
 
 }

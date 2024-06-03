@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ecc1fe7-272e-437b-a0d6-bcdf75823b28" name="Changes" comment="Create a project, and first exercise.">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="7ecc1fe7-272e-437b-a0d6-bcdf75823b28" name="Changes" comment="Fifth exercise.">
       <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +62,39 @@
       <option name="project" value="LOCAL" />
       <updated>1717420744189</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Second exercise (leap year).">
+      <option name="closed" value="true" />
+      <created>1717421407845</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717421407845</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Third Exercise (Simple Math Operations).">
+      <option name="closed" value="true" />
+      <created>1717421927860</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717421927860</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fourth Exercise (Average).">
+      <option name="closed" value="true" />
+      <created>1717422051328</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717422051328</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fifth exercise.">
+      <option name="closed" value="true" />
+      <created>1717422113312</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717422113312</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,6 +122,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create a project, and first exercise." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a project, and first exercise." />
+    <MESSAGE value="Second exercise (leap year)." />
+    <MESSAGE value="Third Exercise (Simple Math Operations)." />
+    <MESSAGE value="Fourth Exercise (Average)." />
+    <MESSAGE value="Fifth exercise." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fifth exercise." />
   </component>
 </project>
