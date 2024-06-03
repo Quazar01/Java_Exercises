@@ -39,6 +39,11 @@ public class Main {
         // Exercise 4
         average(23, 11, 77);
 
+        // Exercise 5
+        System.out.println("What is your name?");
+        String userName = scanner.nextLine();
+        System.out.println("Hello " + userName);
+
     }
 
     public static boolean isLeapYear(int year) {
