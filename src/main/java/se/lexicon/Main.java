@@ -25,6 +25,17 @@ public class Main {
             System.out.println(year + " is not a leap year.");
 
         }
+
+        // Exercise 3.
+        //Sum
+        System.out.printf("Sum of %d + %d = %d%n", 45, 11, 45 + 11 );
+        // Multiplication
+        System.out.printf("Multiplication of %d * %d = %d%n", 12, 4, 12 * 4);
+        // Division
+        System.out.printf("Division of %d + %d = %d%n", 24, 6, (24 / 6) );
+        // Subtraction
+        System.out.printf("Subtraction of %d + %d = %d%n", 55, 12, 55 - 12 );
+
     }
 
     public static boolean isLeapYear(int year) {
@@ -39,6 +50,5 @@ public class Main {
             return false; // Not divisible by 4 -> not a leap year.
         }
     }
-
 
 }
