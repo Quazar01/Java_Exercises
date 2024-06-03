@@ -1,5 +1,6 @@
 package se.lexicon;
 
+import java.util.Random;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -51,6 +52,39 @@ public class Main {
         int secondNumber = scanner.nextInt();
 
         mathOperations(firstNumber,secondNumber);
+
+        // Exercise 7
+        System.out.print("Input seconds: ");
+        int seconds = scanner.nextInt();
+        seconds_to_time(seconds);
+
+        // Exercise 8
+        Random random = new Random();
+
+        int targetNumber = random.nextInt(500) + 1;
+
+        // Inform the user about the range
+        System.out.println("I have selected a random number between 1 and 500.");
+        System.out.println("Try to guess the number!");
+
+        // Declare user's guess
+        int guess;
+        // Loop until the user guesses the correct number
+        do {
+            // Prompt the user to enter a guess
+            System.out.print("Enter your guess: ");
+            guess = scanner.nextInt();
+
+            // Provide feedback
+            if (guess < targetNumber) {
+                System.out.println("Your guess was too small.");
+            } else if (guess > targetNumber) {
+                System.out.println("Your guess was too big.");
+            } else {
+                System.out.println("Congratulations! You guessed the correct number.");
+            }
+        } while (guess != targetNumber);
+
     }
 
     public static boolean isLeapYear(int year) {
@@ -80,5 +114,16 @@ public class Main {
         // Subtraction
         System.out.printf("Subtraction of %d + %d = %d%n", a, b, a - b );
     }
+
+    public static void seconds_to_time(int seconds){
+
+        int hours = seconds / 3600;
+        int remainder = seconds % 3600;
+        int minutes = remainder / 60;
+        int remainingSeconds = remainder % 60;
+
+        System.out.printf("%d:%d:%d", hours, minutes, remainingSeconds);
+    }
+
 
 }
