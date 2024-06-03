@@ -36,6 +36,9 @@ public class Main {
         // Subtraction
         System.out.printf("Subtraction of %d + %d = %d%n", 55, 12, 55 - 12 );
 
+        // Exercise 4
+        average(23, 11, 77);
+
     }
 
     public static boolean isLeapYear(int year) {
@@ -49,6 +52,10 @@ public class Main {
         } else {
             return false; // Not divisible by 4 -> not a leap year.
         }
+    }
+
+    public static void average(int a, int b, int c){
+        System.out.printf("(%d + %d + %d)/3 = %d%n", a, b, c, ((a + b + c)/3) );
     }
 
 }
